@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="shortcut icon" type="imagem/x-icon" href="imagens do projeto/favicon.ico"/>
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <header class="topo shadow-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="nav nav-underline">
+                        <a class="nav-link" href="home.html">Home</a>
+                        <a class="nav-link" href="products.html">Serviços</a>
+                        <a class="nav-link" href="aboutme.html">Quem sou</a>
+                        <a class="nav-link" href="contactforms.html">Contato</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="row pad">
+        <h2 class="h4">Enviar Candidatura</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <form>
+                <div>
+                    <label for="input-name" class="p">Nome:</label>
+                    <input id="input-name" class="form-control" placeholder="Nome completo" type=" text" name="nome">
+                </div>
+                <div>
+                    <label for="input-email" class="p">Email:</label>
+                    <input id="input-email" class="form-control" placeholder="Seu e-mail" type="email" name="email">
+                </div>
+                <div>
+                    <label for="input-tel" class="p">Número de contato:</label>
+                    <input id="input-tel" class="form-control" placeholder="Numero para contato com DDD" type="tel"
+                        name="numero">
+                </div>
+                <div>
+                    <label for="input-linkedin" class="p">Linkedin:</label>
+                    <input id="input-linkedin" class="form-control" placeholder="https://linkedin.com.br/seuendereco"
+                        type="tel" name="linkedin">
+                </div>
+
+                <div>
+                    <label for="input-cv" class="p">Currículo</label>
+                    <input id="input-cv" class="form-control" type="file">
+                </div>
+
+                <div>
+                    <label for="input-mensagem" class="p">
+                        Conte-nos mais sobre você:
+                    </label>
+                    <textarea id="input-mensagem" class="form-control" name="mensagem" rows="10">
+                    </textarea>
+                </div>
+
+                <div class="centerdiv" style="padding: 20px;">
+                    <button type="submit" class="btn">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

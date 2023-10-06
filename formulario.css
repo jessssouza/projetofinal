@@ -1,0 +1,64 @@
+body {
+    background-color: #fafafa;
+    padding: 35px;
+}
+
+.h4 {
+    color: #ff206a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+form {
+    float: left;
+    margin-right: 100px;
+}
+
+.form-control {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #ffaec9;
+    color: #ff206a;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #ff206a;
+    padding: 5px;
+    width: 100px;
+}
+
+.btn:hover {
+    background-color: #ff206a;
+    color: #ffaec9;
+    border-color: #ff206a;
+}
+
+.centerdiv {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.end-link,
+.end-link:focus,
+.nav-link {
+    color: #ff206a;
+}
+
+.pad {
+    margin-top: 30px;
+}

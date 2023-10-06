@@ -1,0 +1,93 @@
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff206a;
+    font-size: medium;
+    padding: 10px;
+}
+
+.card-color {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #fafafa;
+    border-radius: 8px;
+    border: 0.5px solid #ffaec9;
+    padding: 10px;
+    margin: 30px;
+}
+
+.centerdiv {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 150px;
+}
+
+.card-color:hover {
+    background-color: #ffaec9;
+}
+
+.btn:hover {
+    background-color: #ff206a;
+    color: #fafafa;
+    border-color: #ff206a;
+}
+
+.btn {
+    background-color: none;
+    color: #ff206a;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #ff206a;
+    padding: 8px;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.button-container {
+    margin-top: 20px;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.topo {
+    padding: 30px;
+    position: relative;
+    background-color: #fafafa;
+}
+
+.banner-topo {
+    width: 100%;
+    color: #000;
+    padding: 30px;
+}
+
+.cor-do-destaque {
+    color: #ff206a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.rodape {
+    color: #000;
+    background-color: #fafafa;
+}
+
+.bi {
+    font-size: 32px;
+    color: #ff206a;
+    margin: 2px;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.end-link,
+.end-link:focus,
+.nav-link {
+    color: #ff206a;
+}
